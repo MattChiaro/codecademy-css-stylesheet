@@ -1,0 +1,132 @@
+/* Universal Styles */
+
+html {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffbf00;
+    border: 10px outset gray;
+    padding: 10px;
+}
+
+header {
+    border: 4px black solid;
+    background-color: #ffdc73;
+    box-shadow: 5px 10px;
+    z-index: 1;
+}
+
+main {
+    background-color: #ffdc73;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;  
+}
+
+p {
+    font-family:'Bruno Ace', cursive ;
+}
+ 
+/*colors and the boxes that surround them */
+
+.colorlist, 
+.colorlist li {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.color1:hover,
+.color2:hover, 
+.color3:hover,
+.color4:hover,
+.color5:hover {
+    transform: skew(30deg, 20deg);
+    
+}
+
+.color1 {
+    background-color: #a67c00;
+    width: 250px;
+    height: 125px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+.color2 {
+    background-color: #BF9B30;
+    width: 250px;
+    height: 125px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.color3 {
+    background-color: #ffbf00;
+    width: 250px;
+    height: 125px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.color4 {
+    background-color: #ffcf40;
+    width: 250px;
+    height: 125px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.color5 {
+    background-color: #ffdc73;
+    width: 250px;
+    height: 125px;
+    border: 1px solid black;
+    display: inline-block; 
+}
+
+.colors p {
+    padding-bottom: 20px;
+    border-bottom: 4px solid black;
+}
+
+/* Fonts */
+
+
+.fonts {
+    font-size: large;
+}
+.oswald p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.fox {
+    text-align: center;
+}
+
+.oswald span {
+    font-weight: 700;
+}
+
+.brunoace p {
+    font-family: 'Bruno Ace', cursive;
+}
+
+.brunoacesc p {
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.brunoacesc span {
+    font-family: 'Bruno Ace', cursive;
+}
